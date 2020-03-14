@@ -1,0 +1,17 @@
+server:
+  port: 9999
+spring:
+  application:
+    name: SpringCloud
+
+### single file to specify different profiles
+#---
+#spring:
+#  profiles: test
+#server:
+#  port: 9991
+#---
+#spring:
+#  profiles: prod
+#server:
+#  port: 9992
